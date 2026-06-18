@@ -45,7 +45,9 @@ The orchestrator runs through a four-phase loop:
 
    \# Set the debate topic and duration  
    ROUNDS \= 2  
-   TOPIC \= "The feasibility of achieving AGI before 2030."
+   TOPIC \= "The feasibility of achieving AGI before 2030." 
+
+   *Also refer curated list of topics
 
    *Note on Local Models (e.g., Ollama):* If using Ollama, change the API\_URL to http://localhost:11434/v1/chat/completions, leave API\_KEY blank, and ensure the require\_json payload format matches your local server's expectations.
 
