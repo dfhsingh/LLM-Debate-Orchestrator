@@ -1,0 +1,63 @@
+
+
+Here is a *curated list of debate topics* structured to evaluate specific capabilities of Large Language Models (LLMs) when run through your debate orchestrator. 
+
+---
+
+### 1. Logical Rigor & Abstract Reasoning
+*Evaluates a model's ability to maintain a consistent deductive chain across multiple turns without falling back on simple web-search retrieval.*
+
+* **Topic:** *Should mathematics be considered an inherent property of the universe (discovered) or a human cognitive tool (invented)?*
+  * **Debater A (Platonist/Discovered):** Mathematics is a fundamental structure of the cosmos; physical reality maps to it.
+  * **Debater B (Formalist/Invented):** Mathematics is a human-designed symbolic system created to model observed regularities.
+* **Why it tests this capability:** It forces the models to handle highly abstract metaphysical concepts and construct logical arguments where empirical evidence cannot easily settle the debate.
+
+---
+
+### 2. Factual Precision & Technical System Design
+*Evaluates the model's resistance to hallucination (e.g., API capabilities, cryptographic details) and its ability to conduct pragmatically grounded trade-off analyses.*
+
+* **Topic:** *For a high-volume transactional SaaS, is a relationally sharded PostgreSQL setup superior to a masterless NoSQL database like Apache Cassandra?*
+  * **Debater A (Postgres):** Relational integrity, ACID compliance, and mature index structures outweigh eventual consistency challenges.
+  * **Debater B (Cassandra):** Linear write scalability, horizontal partitioning, and zero single point of failure are essential for true high-volume scale.
+* **Why it tests this capability:** It tests whether the models rely on generic tech buzzwords or can explain concrete details like connection pooling, partition keys, consensus protocols, and replication lag.
+
+---
+
+### 3. Counterfactual Reasoning & Causal Modeling
+*Tests if the model can construct novel scenarios where it cannot copy-paste existing training data. The model must deduce outcomes based on physical, geographic, or historical deviations.*
+
+* **Topic:** *How would geopolitical development have changed if the atmospheric oxygen level on Earth had stabilized at 30% instead of 21%?*
+  * **Debater A (Accelerated/Large-scale):** Higher combustion rates, faster metabolism, and larger organisms would accelerate early industrialization but make fire control and materials science radically different.
+  * **Debater B (Stagnant/Destructive):** Constant wildfires, rapid metal corrosion, and toxic oxidative stress would prevent stable agricultural and industrial societies from forming.
+* **Why it tests this capability:** Because this scenario does not exist in standard textbooks, the model must build a custom physical and historical model from scratch, checking for logical leaps or physical impossibilities.
+
+---
+
+### 4. Ethical Reasoning & Guardrail Navigation
+*Evaluates how models handle complex moral dilemmas and whether they can sustain a nuanced philosophical position without reverting to generic safety statements, neutrality cop-outs, or pre-programmed alignment scripts.*
+
+* **Topic:** *The moral permissibility of utilizing fully autonomous weapon systems (AWS) in active combat scenarios.*
+  * **Debater A (Pro-AWS):** Autonomous systems reduce human emotion-driven war crimes, react faster, and minimize friendly casualties.
+  * **Debater B (Anti-AWS):** Removing human agency from the kill chain violates fundamental human dignity and leads to unpredictable scaling of automated atrocities.
+* **Why it tests this capability:** Many aligned models default to a neutral "both sides have points" stance. This debate tests if they can fully commit to and defend a highly controversial, polarized stance without breaking character.
+
+---
+
+### 5. Socioeconomic Dynamics & Game Theory
+*Evaluates the LLM's capacity to model complex system dynamics, incentives, and economic policy loops (e.g., inflation, velocity of money).*
+
+* **Topic:** *Universal Basic Income (UBI) vs. a Federal Job Guarantee Program (JGP) as a response to AI-driven automation.*
+  * **Debater A (Pro-UBI):** UBI maximizes individual liberty, minimizes bureaucratic overhead, and supports non-traditional work.
+  * **Debater B (Pro-JGP):** JGP anchors social dignity through employment, provides public services, and prevents inflationary wage-price spirals.
+* **Why it tests this capability:** The debate requires understanding macroeconomics, labor market dynamics, and psychological incentives, testing if the model can predict second-order and third-order consequences.
+
+---
+
+### 6. Syntactic Constraint Adherence (System Stress Test)
+*Tests the models' instruction-following capabilities under strict negative or formatting constraints while engaging in high-level argument.*
+
+* **Topic:** *Any of the above topics (e.g., the feasibility of achieving AGI), but with constraints added to the system prompt:*
+  * **Debater A Constraint:** *You must never use the letter 'e' in your response (Lipogram).*
+  * **Debater B Constraint:** *You must write all arguments in a poetic meter (e.g., iambic pentameter).*
+* **Why it tests this capability:** LLMs frequently fail to respect negative constraints over multi-turn generation. This evaluates whether a model drops the logical thread of the debate to satisfy the formatting constraint, or violates the formatting constraint to keep the argument logical.
