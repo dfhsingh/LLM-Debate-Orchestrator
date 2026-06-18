@@ -47,7 +47,7 @@ The orchestrator runs through a four-phase loop:
    ROUNDS \= 2  
    TOPIC \= "The feasibility of achieving AGI before 2030." 
 
-   *Also refer curated list of topics [ TOPICS ]( https://github.com/dfhsingh/LLM-Debate-Orchestrator/edit/main/cu](https://github.com/dfhsingh/LLM-Debate-Orchestrator/blob/main/curated%20debate%20topics )
+   *Also refer curated list of topics [ TOPICS ](https://github.com/dfhsingh/LLM-Debate-Orchestrator/blob/main/curated%20debate%20topics)
 
    *Note on Local Models (e.g., Ollama):* If using Ollama, change the API\_URL to http://localhost:11434/v1/chat/completions, leave API\_KEY blank, and ensure the require\_json payload format matches your local server's expectations.
 
